@@ -2,6 +2,87 @@ html {
   font-size: 62.5%;
 }
 
-body {
-  background: url("./images/IMG_0180.jpg");
+.body {
+  background: url("./assets/images/IMG_0180_1400.jpg") no-repeat center center;
+  background-size: cover;
+}
+
+.header1 {
+  font-size: 3.25rem;
+  color: coral;
+}
+
+#searchHistory,
+p {
+  color: coral;
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+
+h3 {
+  color: coral;
+  font-size: 1.5rem;
+}
+
+h2 {
+  color: coral;
+}
+
+.container {
+  width: auto;
+  max-width: 680px;
+  padding: 0 15px;
+}
+
+# @media screen and (max-width: 1400px) {
+  .body {
+    background: url("./assets/images/IMG_0180_1400.jpg") no-repeat center center;
+    background-size: cover;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .body {
+    background: url("../images/./assets/images/IMG_0180_1200.jpg") no-repeat
+      scroll center top transparent;
+    background-size: cover;
+  }
+}
+@media screen and (max-width: 992px) {
+  .jumbotron {
+    background: url("./assets/images/IMG_0180_992.jpg") scroll center top
+      transparent;
+    background-size: cover;
+  }
+}
+@media screen and (max-width: 768px) {
+  .body {
+    background: url("./assets/images/IMG_0180_768.jpg") scroll center top
+      transparent;
+    background-size: cover;
+  }
+}
+@media sceen and (max-width: 576px) {
+  .body {
+    background: url("../images/./assets/images/IMG_0180_576.jpg") scroll center
+      top transparent;
+    background-size: cover;
+    align-items: center;
+  }
+}
+@media sceen and (min-width: 360px) {
+  .body {
+    background: url("./assets/images/IMG_0180_360.jpg") scroll center top
+      transparent;
+  }
+  h1 {
+    font-size: 0.5rem;
+  }
+
+  #searchHistory {
+    align-items: center;
+  }
+
+  #searchCity {
+    width: 35%;
+  }
 }
