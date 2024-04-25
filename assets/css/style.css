@@ -34,7 +34,7 @@ h2 {
   padding: 0 15px;
 }
 
-# @media screen and (max-width: 1400px) {
+/* @media screen and (max-width: 1400px) {
   .body {
     background: url("./assets/images/IMG_0180_1400.jpg") no-repeat center center;
     background-size: cover;
@@ -42,8 +42,8 @@ h2 {
 }
 @media screen and (max-width: 1200px) {
   .body {
-    background: url("../images/./assets/images/IMG_0180_1200.jpg") no-repeat
-      scroll center top transparent;
+    background: url("./assets/images/IMG_0180_1200.jpg") no-repeat scroll center
+      top transparent;
     background-size: cover;
   }
 }
@@ -63,16 +63,17 @@ h2 {
 }
 @media sceen and (max-width: 576px) {
   .body {
-    background: url("../images/./assets/images/IMG_0180_576.jpg") scroll center
-      top transparent;
+    background: url("./assets/images/IMG_0180_576.jpg") scroll center top
+      transparent;
     background-size: cover;
     align-items: center;
   }
 }
 @media sceen and (min-width: 360px) {
   .body {
-    background: url("./assets/images/IMG_0180_360.jpg") scroll center top
+    background: url("./assets/images/IMG_0180_576.jpg") scroll center top
       transparent;
+    background-size: cover;
   }
   h1 {
     font-size: 0.5rem;
@@ -84,5 +85,6 @@ h2 {
 
   #searchCity {
     width: 35%;
+    align-items: center;
   }
-}
+} */
