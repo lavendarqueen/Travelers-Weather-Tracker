@@ -33,15 +33,11 @@ Upon opening the application at www.github.com/lavendarqueen/Travelers-Weather-T
 
 Upon opening the application the user sees the main page with the user interface:
 
-```md
 ![Weather Tracker Main Page with User Interface](assets/images/screenshot-main-ui.png)
-```
 
 User inputs a city name and today's weather appears below the search bar with a 5-day forecast below:
 
-```md
 ![Image of 5-day Forecast](assets/images/screenshot-weather-forecast.png)
-```
 
 ## Credits
 
@@ -58,7 +54,7 @@ https://api.openweathermap.org/data/2.5/forecast?q=${citySearch}&appid=14f0c64f1
 
 University of Denver tutors: Dennis Itua, Brandon Leek, Andrew Hardemon.
 
-Instructors: Ben Machock, Eric Sayer, and Casey Miller.
+Instructors: Ben Machock, Eric Sayer, and Teacher's Assistant: Casey Miller.
 
 Resources used:
 free code camp - https://www.freecodecamp.org/
